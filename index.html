@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/CSS/style.css">
+        <link rel="stylesheet" href="./assets/CSS/modal.css">
+        <link rel="stylesheet" href="./todolist/todolist.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Syne+Mono&display=swap" rel="stylesheet">
+        <title>Todolist Vanilla</title>
+    </head>
+    <body>
+        <img src="./assets/images/bg-hollidays.webp" alt="" class="bg-hollidays">
+        <header class="header">
+            <h1>TODOLIST Vanilla</h1>
+        </header>
+        <div class="search-task">
+            <label for="" class="search-task-label">Rechercher une tâche ...</label>
+            <div class="input-container">
+                <input type="text" class="search-input" placeholder="Rechercher ...">
+                <img src="./assets/icons/search-icon.png" alt="" class="search-icon" >
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="select-list-container">
+                <label for="" class="select-list-label">Mes listes</label>
+                <select name="" id="select-list" class="select-list">
+                    <option value="myList" class="option-list">Mes listes</option>
+                </select>
+                <button class="add-btn" id="add-list-btn">
+                    <img src="./assets/icons/add-icon.png" alt="" class="add-icon">
+                </button>
+            </div>
+            <div class="modal-add-list">
+                <div class="modal">
+                    <h2 class="title-modal">Ajouter une liste</h2>
+                    <div class="add-title">
+                        <label for="">Titre</label>
+                        <input type="text" class="add-title-input" id="add-list-title">
+                    </div>
+                    <button class="confirm-btn" id="confirm-btn">Ajouter</button>
+                </div>
+            </div>
+            <div class="display-list">
+                <h3 class="title-list"></h3>
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="./todolist/todolist.js"></script>

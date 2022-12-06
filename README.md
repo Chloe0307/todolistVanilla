@@ -1,2 +1,8 @@
 # todolistVanilla
-Todolist js vanilla
+```
+    Todolist js vanilla
+    Javascript
+    HTML
+    CSS
+```
+

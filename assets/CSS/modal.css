@@ -1,0 +1,43 @@
+.modal-add-list {
+    padding: 24px;
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 10%
+}
+.display-modal {
+    padding: 24px;
+    display: block;
+}
+.modal {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:16px 48px;
+}
+.title-modal {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.add-title{
+    display: flex;   
+    flex-direction: column;
+}
+.add-title-input {
+    border: 1px solid black; 
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-family: 'Nerko One', cursive;
+}
+.confirm-btn {
+    width: 100%;
+    background-color: rgb(159, 246, 217);
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    margin-top: 24px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 16px;
+
+}
